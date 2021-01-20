@@ -32,7 +32,7 @@ from collections import defaultdict
 from sys import stderr as SE, stdout as SO
 
 from .temoa_config import TemoaConfig
-from thirdparty.temoa.data_processing.DB_to_Excel import make_excel
+from data_processing.DB_to_Excel import make_excel
 
 from shutil import rmtree
 import sqlite3
