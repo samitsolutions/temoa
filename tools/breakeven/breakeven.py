@@ -8,7 +8,7 @@ from collections import OrderedDict, defaultdict
 from time import time
 import pandas as pd
 from IPython import embed as IP
-from thirdparty.temoa.temoa_model.temoa_model import temoa_create_model
+from temoa_model.temoa_model import temoa_create_model
 from pyomo.core.base import Var, Constraint, Objective, maximize, minimize
 from pyomo.repn import generate_canonical_repn
 
