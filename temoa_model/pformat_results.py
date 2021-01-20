@@ -31,7 +31,7 @@ __all__ = ('pformat_results', 'stringify_data')
 from collections import defaultdict
 from sys import stderr as SE, stdout as SO
 
-from temoa_config import TemoaConfig
+from .temoa_config import TemoaConfig
 from data_processing.DB_to_Excel import make_excel
 
 from shutil import rmtree
